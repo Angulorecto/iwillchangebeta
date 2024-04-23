@@ -1,3 +1,4 @@
+@import "fonts/righty.css";
 body {
     background-image: radial-gradient(circle at center, #101010, #050505);
 }
@@ -24,4 +25,13 @@ body {
     color: #FFFFFF;
     margin-left: 10%;
     font-size: 25px;
+    font-family: 'righty';
+    display: flex; /* Use flexbox for aligning */
+    align-items: center; /* Center vertically */
+}
+
+.linkIcon {
+    height: 30px; /* Adjust height as needed */
+    width: 30px;  /* Adjust width as needed */
+    margin-right: 10px; /* Add margin between icon and text */
 }
