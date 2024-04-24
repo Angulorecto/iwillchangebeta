@@ -14,7 +14,13 @@ document.addEventListener("DOMContentLoaded", function() {
       doc.title = name;
       link.rel = "icon";
       link.href = icon;
-      iframe.src = window.location.href;
+
+      // Save the window location URL before opening the popup
+      const windowUrl = window.location.href;
+
+      // Use the saved window location URL for the iframe src
+      iframe.src = windowUrl;
+
       style.position = "fixed";
       style.top = style.bottom = style.left = style.right = 0;
       style.border = style.outline = "none";
