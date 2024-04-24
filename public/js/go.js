@@ -1,3 +1,7 @@
+function closeWindow() {
+  window.close();
+}
+
 let inFrame;
 
 try {
