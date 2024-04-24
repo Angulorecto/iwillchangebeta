@@ -16,4 +16,6 @@ function replaceIframeWithCurrentPage() {
 }
 
 // Replace the iframe with the current page's URL if not in about:blank
-replaceIframeWithCurrentPage();
+document.addEventListener("DOMContentLoaded", function() {
+  replaceIframeWithCurrentPage();
+});
