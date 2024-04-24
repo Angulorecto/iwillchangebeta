@@ -1,7 +1,9 @@
 @import "fonts/righty.css";
+
 body {
     background-image: radial-gradient(circle at center, #101010, #050505);
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -20,6 +22,7 @@ body {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     background-color: rgba(65, 65, 65, 0.1);
 }
+
 .navItem {
     text-decoration: none;
     color: #FFFFFF;
@@ -30,7 +33,8 @@ body {
     align-items: center; /* Center vertically */
 }
 
-.linkIcon {
+.linkIcon,
+.settingsIcon {
     height: 30px; /* Adjust height as needed */
     width: 30px;  /* Adjust width as needed */
     margin-right: 10px; /* Add margin between icon and text */
