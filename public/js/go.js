@@ -21,7 +21,7 @@ function AB() {
       doc.title = name;
       link.rel = "icon";
       link.href = icon;
-      iframe.src = "src/pages/home.html";
+      iframe.src = "public/index.html";
       style.position = "fixed";
       style.top = style.bottom = style.left = style.right = 0;
       style.border = style.outline = "none";
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
     link.rel = "icon";
     link.href = icon;
 
-    iframe.src = "public/home.html";
+    iframe.src = "public/index.html";
     style.position = "fixed";
     style.top = style.bottom = style.left = style.right = 0;
     style.border = style.outline = "none";
