@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const popup = open("about:blank", "_blank");
     if (!popup || popup.closed) {
       alert("You're not seeing the site till you enable popups.");
-      window.location.href = "https://clever.com";
     } else {
       const doc = popup.document;
       const iframe = doc.createElement("iframe");
@@ -36,7 +35,6 @@ function AB() {
   if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     if (window.location.href !== "about:blank") {
       const popup = open("about:blank", "_blank");
-      window.location.href = "https://clever.com";
       if (!popup || popup.closed) {
         alert("You're not seeing the site till you enable popups.");
       } else {
