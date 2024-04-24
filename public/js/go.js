@@ -1,7 +1,3 @@
-function closeWindow() {
-  window.close();
-}
-
 let inFrame;
 
 try {
@@ -44,7 +40,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         (event || window.event).returnValue = confirmationMessage;
         return confirmationMessage;
       };
-      window.opener.closeWindow(); // Call the closeWindow function in the original window
+      setTimeout(() => { window.location.href = 'https://example.com'; }, 100); // Redirect the original window after a short delay
     `
     doc.head.appendChild(script);
   }
