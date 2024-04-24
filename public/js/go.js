@@ -33,6 +33,8 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
 
+    window.close();
+
     const script = doc.createElement("script")
     script.textContent = `
       window.onbeforeunload = function (event) {
