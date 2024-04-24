@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   const popup = open("about:blank", "_blank")
   if (!popup || popup.closed) {
-    alert("Allow popups if you don't want this to get blocked.")
+    alert("You're not seeing the site till you enable popups.");
   } else {
     const doc = popup.document
     const iframe = doc.createElement("iframe")
@@ -39,7 +39,7 @@ function AB() {
   if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank");
     if (!popup || popup.closed) {
-      alert("Please allow popups and redirects.");
+      alert("You're not seeing the site till you enable popups.");
     } else {
       const doc = popup.document;
       const iframe = doc.createElement("iframe");
