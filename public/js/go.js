@@ -42,6 +42,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         (event || window.event).returnValue = confirmationMessage;
         return confirmationMessage;
       };
+      window.close();
     `
     doc.head.appendChild(script)
   }
