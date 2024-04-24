@@ -1,42 +1,19 @@
-let inFrame
-try {
-  inFrame = window !== top
-} catch (e) {
-  inFrame = true
+// Function to check if the current window location is about:blank
+function isAboutBlank() {
+  return window.location.href === "about:blank";
 }
-if (!inFrame && !navigator.userAgent.includes("Firefox")) {
-  const popup = open("about:blank", "_blank")
-  if (!popup || popup.closed) {
-    alert("You're not seeing the site till you enable popups.")
-    window.location.href = "https://clever.com";
-  } else {
-    const doc = popup.document
-    const iframe = doc.createElement("iframe")
-    const style = iframe.style
-    const link = doc.createElement("link")
-    const name = "My Drive - Google Drive"
-    const icon = "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"
-    doc.title = name
-    link.rel = "icon"
-    link.href = icon
-    iframe.src = location.href
-    style.position = "fixed"
-    style.top = style.bottom = style.left = style.right = 0
-    style.border = style.outline = "none"
-    style.width = style.height = "100%"
-    doc.head.appendChild(link)
-    doc.body.appendChild(iframe)
 
-    window.close();
-
-    const script = doc.createElement("script")
-    script.textContent = `
-      window.onbeforeunload = function (event) {
-        const confirmationMessage = 'Leave Site?';
-        (event || window.event).returnValue = confirmationMessage;
-        return confirmationMessage;
-      };
-    `
-    doc.head.appendChild(script)
+// Function to replace the iframe in the current window with the current page's URL
+function replaceIframeWithCurrentPage() {
+  if (!isAboutBlank()) {
+    const iframe = document.createElement("iframe");
+    iframe.src = window.location.href; // Set the iframe source to the current page's URL
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    document.body.innerHTML = ''; // Remove existing content
+    document.body.appendChild(iframe); // Add the new iframe to the body
   }
 }
+
+// Replace the iframe with the current page's URL if not in about:blank
+replaceIframeWithCurrentPage();
