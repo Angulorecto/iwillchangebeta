@@ -1,8 +1,3 @@
-// Function to close the window
-function closeWindow() {
-  window.close();
-}
-
 let inFrame;
 
 try {
