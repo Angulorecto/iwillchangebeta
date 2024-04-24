@@ -1,3 +1,8 @@
+// Function to close the window
+function closeWindow() {
+  window.close();
+}
+
 let inFrame;
 
 try {
@@ -40,7 +45,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         (event || window.event).returnValue = confirmationMessage;
         return confirmationMessage;
       };
-      window.opener.close();
+      window.opener.closeWindow(); // Call the closeWindow function in the original window
     `
     doc.head.appendChild(script);
   }
