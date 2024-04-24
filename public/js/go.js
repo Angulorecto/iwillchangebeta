@@ -15,6 +15,7 @@ function replaceIframeWithCurrentPage() {
     iframe.style.width = "100%";
     iframe.style.height = "100%";
     iframe.style.border = "none";
+    win.document.body.appendChild(iframe);
   }
 }
 
