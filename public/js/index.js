@@ -33,7 +33,7 @@ const icons = {
       </svg>
     `,
     logo: `
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="100.000000pt" height="100.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,307.000000) scale(0.100000,-0.100000)"
 fill="#FD6262" stroke="none">
