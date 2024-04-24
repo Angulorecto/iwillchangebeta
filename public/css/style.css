@@ -23,6 +23,10 @@ body {
     background-color: rgba(65, 65, 65, 0.1);
 }
 
+.logo {
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
 .navItem {
     text-decoration: none;
     color: #FFFFFF;
