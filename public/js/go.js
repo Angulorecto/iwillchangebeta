@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function() {
       doc.body.appendChild(iframe);
       window.close();
     }
+  } else {
+    window.location.href = "https://clever.com";
   }
 });
 
