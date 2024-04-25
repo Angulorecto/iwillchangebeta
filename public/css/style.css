@@ -38,8 +38,16 @@ body {
     flex-grow: 1; /* Allow items to grow to fill the space equally */
 }
 
-.linkCreatedIcon,
-.chatCreatedIcon,
+.linkCreatedIcon {
+    height: 40px; /* Adjust height as needed */
+    width: 40px;  /* Adjust width as needed */
+    margin-right: 10px; /* Add margin between icon and text */
+}
+.chatCreatedIcon {
+    height: 40px; /* Adjust height as needed */
+    width: 40px;  /* Adjust width as needed */
+    margin-right: 10px; /* Add margin between icon and text */
+}
 .settingsCreatedIcon {
     height: 40px; /* Adjust height as needed */
     width: 40px;  /* Adjust width as needed */
