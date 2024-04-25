@@ -57,6 +57,12 @@ const icons = {
 <g><path style="opacity:1" fill="#5d2a2a" d="M 136.5,272.5 C 138.027,272.427 139.027,273.094 139.5,274.5C 137.973,274.573 136.973,273.906 136.5,272.5 Z"/></g>
 <g><path style="opacity:1" fill="#5f2a29" d="M 162.5,282.5 C 162.027,283.906 161.027,284.573 159.5,284.5C 159.973,283.094 160.973,282.427 162.5,282.5 Z"/></g>
 </svg>
+    `,
+    chatIcon: `
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+          <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+          </g>
+      </svg>
     `
 };
 
