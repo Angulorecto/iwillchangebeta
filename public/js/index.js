@@ -27,7 +27,7 @@ const icons = {
     </svg>
     `,
     settingsIcon: `
-      <svg class="linkCreatedIcon" xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet"><g id="svgg"><path id="path0" d="" stroke="none" fill="#fcfcfc" fill-rule="evenodd"></path><path id="path1" d="" stroke="none" fill="#100fcfc" fill-rule="evenodd"></path><path id="path2" d="" stroke="none" fill="#100fcfc" fill-rule="evenodd"></path><path id="path3" d="" stroke="none" fill="#100fcfc" fill-rule="evenodd"></path><path id="path4" d="" stroke="none" fill="#100fcfc" fill-rule="evenodd"></path></g></svg>
+      <svg class="linkCreatedIcon" xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet"><g id="svgg"><path id="path0" d="" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path><path id="path1" d="" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path><path id="path2" d="" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path><path id="path3" d="" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path><path id="path4" d="" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path></g></svg>
     `,
     logo: `
       <svg class="logoCreated" xmlns="http://www.w3.org/2000/svg" version="1.0" width="50.000000pt" height="50.000000pt" viewBox="0 0 307.000000 307.000000" preserveAspectRatio="xMidYMid meet">
