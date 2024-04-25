@@ -39,17 +39,17 @@ body {
 }
 
 .linkCreatedIcon {
-    height: 40px; /* Adjust height as needed */
-    width: 40px;  /* Adjust width as needed */
-    margin-right: 10px; /* Add margin between icon and text */
+    height: var(--iconWidth); /* Adjust height as needed */
+    width: var(--iconHeight);  /* Adjust width as needed */
+    margin-right: var(--iconMarginRight); /* Add margin between icon and text */
 }
 .chatCreatedIcon {
-    height: 40px; /* Adjust height as needed */
-    width: 40px;  /* Adjust width as needed */
-    margin-right: 10px; /* Add margin between icon and text */
+    height: var(--iconWidth); /* Adjust height as needed */
+    width: var(--iconHeight);  /* Adjust width as needed */
+    margin-right: var(--iconMarginRight); /* Add margin between icon and text */
 }
 .settingsCreatedIcon {
-    height: 40px; /* Adjust height as needed */
-    width: 40px;  /* Adjust width as needed */
-    margin-right: 10px; /* Add margin between icon and text */
+    height: var(--iconWidth); /* Adjust height as needed */
+    width: var(--iconHeight);  /* Adjust width as needed */
+    margin-right: var(--iconMarginRight); /* Add margin between icon and text */
 }
