@@ -59,7 +59,7 @@ const icons = {
 </svg>
     `,
     chatIcon: `
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="25.000000pt" height="25.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
           <defs>
           </defs>
           <g transform="matrix(1 0 0 1 540 540)" id="8dc608e4-3c4e-4783-b2b6-eeaa3d8a58c5"  >
