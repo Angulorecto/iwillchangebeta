@@ -27,14 +27,9 @@ const icons = {
     </svg>
     `,
     settingsIcon: `
-      <svg class="settingsIcon" version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-</g>
-</svg>
+      <svg class="linkCreatedIcon" xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none"></g>
+      </svg>
     `,
     logo: `
       <svg class="logoCreated" xmlns="http://www.w3.org/2000/svg" version="1.0" width="50.000000pt" height="50.000000pt" viewBox="0 0 307.000000 307.000000" preserveAspectRatio="xMidYMid meet">
