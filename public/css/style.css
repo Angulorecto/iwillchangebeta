@@ -41,7 +41,7 @@ body {
 .linkCreatedIcon,
 .chatCreatedIcon,
 .settingsCreatedIcon {
-    height: 30px; /* Adjust height as needed */
-    width: 30px;  /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    width: 40px;  /* Adjust width as needed */
     margin-right: 10px; /* Add margin between icon and text */
 }
