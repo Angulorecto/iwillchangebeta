@@ -53,7 +53,7 @@ const icons = {
 </svg>
     `,
     chatIcon: `
-      <svg class="linkCreatedIcon" xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+      <svg class="chatCreatedIcon" xmlns="http://www.w3.org/2000/svg" version="1.0" width="30.000000pt" height="30.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
 <desc>Created with Fabric.js 5.2.4</desc>
 <defs>
 </defs>
