@@ -46,7 +46,7 @@ body {
 .chatCreatedIcon {
     height: var(--iconWidth); /* Adjust height as needed */
     width: var(--iconHeight);  /* Adjust width as needed */
-    margin-right: var(--iconMarginRight); /* Add margin between icon and text */
+    margin-right: var(--iconMarginRight) + 15px; /* Add margin between icon and text */
 }
 .settingsCreatedIcon {
     height: var(--iconWidth); /* Adjust height as needed */
