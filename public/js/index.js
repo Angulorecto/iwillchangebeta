@@ -1,6 +1,3 @@
-function reload() {
-    window.location.reload();
-}
 function replace(iconType, iconSVG) {
     const icons = document.querySelectorAll(`.${iconType}`);
   
