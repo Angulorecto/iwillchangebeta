@@ -36,6 +36,12 @@ body {
     display: flex; /* Use flexbox for aligning */
     align-items: center; /* Center vertically */
     flex-grow: 1; /* Allow items to grow to fill the space equally */
+    transition: box-shadow 0.5s, text-shadow 0.5s;
+}
+
+.navItem {
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
 }
 
 .linkCreatedIcon {
