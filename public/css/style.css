@@ -39,7 +39,7 @@ body {
     transition: box-shadow 0.5s, text-shadow 0.5s;
 }
 
-.navItem {
+.navItem:hover {
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
 }
